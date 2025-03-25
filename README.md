@@ -18,7 +18,7 @@ A runtime environment variable validator with Zod. inspired on https://github.co
 
 ```typescript
 import { z } from 'zod';
-import { createEnv } from 'zod-env';
+import { createEnv } from 'zod-environment';
 
 createEnv({
     definitions: z.object({
