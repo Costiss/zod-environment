@@ -5,13 +5,13 @@ A runtime environment variable validator with Zod. inspired on https://github.co
 ## Installation
 
 ```bash
-    npm install zod-env
+    npm install zod-environment
     # or
-    yarn add zod-env
+    yarn add zod-environment
     # or
-    pnpm add zod-env
+    pnpm add zod-environment
     # or
-    bun add zod-env
+    bun add zod-environment
 ```
 
 ## Usage
