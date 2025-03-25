@@ -1,7 +1,7 @@
 {
     "name": "zod-environment",
     "type": "module",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "scripts": {
         "test": "vitest",
         "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
@@ -15,17 +15,17 @@
         "@vitest/coverage-v8": "3.0.9",
         "pkgroll": "^2.11.2",
         "prettier": "^3.5.3",
-        "vitest": "^3.0.9"
+        "vitest": "^3.0.9",
+        "@eslint/eslintrc": "^3.3.1",
+        "@eslint/js": "^9.23.0",
+        "eslint-config-prettier": "^10.1.1",
+        "eslint-plugin-prettier": "^5.2.5",
+        "typescript-eslint": "^8.28.0"
     },
     "peerDependencies": {
         "typescript": "^5"
     },
     "dependencies": {
-        "@eslint/eslintrc": "^3.3.1",
-        "@eslint/js": "^9.23.0",
-        "eslint-config-prettier": "^10.1.1",
-        "eslint-plugin-prettier": "^5.2.5",
-        "typescript-eslint": "^8.28.0",
         "zod": "^3.24.2"
     },
     "exports": {
